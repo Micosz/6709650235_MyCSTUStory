@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Homepage</title><!--Headline-->
+     <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+     <header> <!--Top Border--><!--New-->
+         <h1> 🙏🏼 Welcome to My CSTU Story 🙏🏼 </h1>
+     </header>
+
+     <section id="Let Start With"><!--option selection--><!--New-->
+         <h1>Let Start With Select Something Below</h1><!--Top Letter+Picture-->
+         <img src="resources/image2.JPEG" alt="Description of the image" width="300" class="right">
+         <select id="content-selector"><!--New-->
+            <option value="none" selected>Select an Option</option>
+            <option value="mystory">My Old Story</option>
+            <option value="mypersonal">My Personal</option>
+            <option value="mystyle">My Style</option>
+         </select>
+         <div id="content-display"><!--tag-->
+             <div id="mystory" class="content" style="display:none;">
+                 <h3>My Old Story</h3><!--Choose 1 consequences-->
+                 <p>I am a person who lives an ordinary life. There is nothing special at almost all times that past away. I have a family in my house, a small 
+                     family, father, mother and me, as in the picture. I think the picture can tell everyone that my family raised me in a relaxed way.</p>
+             </div>
+             <div id="mypersonal" class="content" style="display:none;">
+                 <h3>My Personal</h3><!--Choose 2 consequences-->
+                 <p>I tend to be sleepy all the time. I am not a good looker, I have a bad taste in my mouth, 
+                     I am a person who is always serious, and I am not good at reading other people's feelings. So I want everyone to speak out, 
+                     which I think no one wants to say it but that's just me.</p>
+             </div>
+             <div id="mystyle" class="content" style="display:none;">
+                 <h3>My Style</h3><!--Choose 3 consequences-->
+                 <p>I am a very chill person. If you get used to my seriousness, when I am not serious, I am always ready for everything. Go anywhere, anytime, 
+                    like 7-11. I am a person who does not care much about whether I look good or not, as long as I am comfortable. 
+                    I like to play games without any reason. And that is one of the reasons why I am interested in tech and why am here.</p>
+             </div>
+         </div>
+     </section>
+<!--Vdo-->
+     <section id="intro"><!--tag-->
+         <h2></h2>
+         <video controls width="600" height="400"poster="resources/video-cover.jpg">
+             <source src="resources/myvdo.mp4" type="video/mp4">
+         </video>
+         <h3>if wanna read subtitle let check it here
+            <h4>Hello, I'm Chanakan Kongratchapinyo 6709650235. This clip introduces myself. There's nothing much. I was born into a family of 3 people: 
+                father, mother and son. During high school, I was just an ordinary kid, cheerful. Honestly, I'm not. In my free time, I play on the computer in front of me. 
+                I can play Rubik's Cube, but I've forgotten some things. I read books. I have a lot of them, but I can't finish them. Honestly, I'm a shy person, 
+                but I like being with friends. As for music, I like it like this. Personally, I'm a bit too serious. But if I lose my mind, I'll go far. As for the end, 
+                I'd like to introduce myself to everyone.</h4>
+         </h3>
+     </section>
+<!--Select Content--><!--New-->
+     <script>
+        document.getElementById('content-selector').addEventListener('change', function() {
+             var selectedValue = this.value;
+             var contents = document.querySelectorAll('#content-display .content');
+             contents.forEach(function(content) {
+                content.style.display = 'none';
+             });
+             if (selectedValue !== 'none') {
+                document.getElementById(selectedValue).style.display = 'block';
+             }
+         });
+     </script>
+<!--A Contact-->
+     <a class="centered">
+     <h2><br>Contact me if you want here (Otherway may not work ^_^)</h2>
+     <a href="https://www.instagram.com/tth3iz/" class="logo">
+        <img src="resources/instargram-icon.png" alt="Instagram Icon" class="icon">
+        
+     </a>
+</div>
+</body>
+</html>

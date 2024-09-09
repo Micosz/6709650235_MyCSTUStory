@@ -1,0 +1,58 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Body{
+     background-image: url(resources/Background.jpg);
+}
+body {
+    font-family: Garamond, serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #d6d1d1;
+}
+
+header {
+    background: #ac714f;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header {
+     color: rgb(33, 231, 155);
+}
+
+.right {
+    float: right;
+    margin-left: 20px;
+    max-width: 300px;
+    height: auto; 
+}
+
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a {
+    text-align: center;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
