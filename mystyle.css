@@ -1,3 +1,4 @@
+/* CSS For Homepage */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -12,12 +13,14 @@ body {
     color: #d6d1d1;
 }
 
-.HomeHeader {
+.Header {
     background: #ac714f;
     color: #fff;
     padding: 1em 0;
     text-align: center;
     color: rgb(33, 231, 155);
+    position: sticky;
+    top: 0px;
 }
 
 .HomePictureRight {
@@ -25,6 +28,7 @@ body {
     margin-left: 20px;
     max-width: 300px;
     height: auto; 
+    width: 50%;
 }
 
 section {
@@ -48,3 +52,91 @@ section {
     display: flex;
     justify-content: center;
 }
+
+.Navigationbar {
+    position: sticky;
+    top: 0px;
+    background-color: #cea05b;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    width: 10%;
+    height: 100vh;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.UnOrderlistbar {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+/* CSS For Homepage END */
+/* CSS For Journal */
+
+.Header {
+    background: #ac714f;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    color: rgb(33, 231, 155);
+    position: sticky;
+    top: 0px;
+}
+
+.Navigationbar {
+    position: sticky;
+    top: 0px;
+    background-color: #cea05b;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    width: 10%;
+    height: 100vh;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.UnOrderlistbar {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+/* CSS For Journal END*/
+/* CSS For Future */
+
+.Header {
+    background: #ac714f;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    color: rgb(33, 231, 155);
+    position: sticky;
+    top: 0px;
+}
+
+.Navigationbar {
+    position: sticky;
+    top: 0px;
+    background-color: #cea05b;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    width: 10%;
+    height: 100vh;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.UnOrderlistbar {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+/* CSS For Future END*/
