@@ -73,6 +73,10 @@ section {
     padding: 20px;
 }
 
+.click-image {
+display: inline-block; 
+}
+
 /* CSS For Homepage END */
 /* CSS For Journal */
 
@@ -104,6 +108,10 @@ section {
     list-style: none;
     margin: 0;
     padding: 20px;
+}
+
+.click-image {
+    display: inline-block; 
 }
 
 /* CSS For Journal END*/
@@ -139,4 +147,8 @@ section {
     padding: 20px;
 }
 
+.click-image {
+    display: inline-block; 
+}
+    
 /* CSS For Future END*/
