@@ -4,28 +4,23 @@ body, h1, h2, p {
     box-sizing: border-box;
 }
 
-Body{
-     background-image: url(resources/Background.jpg);
-}
 body {
+    background-image: url(resources/Background.jpg);
     font-family: Garamond, serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #d6d1d1;
 }
 
-header {
+.HomeHeader {
     background: #ac714f;
     color: #fff;
     padding: 1em 0;
     text-align: center;
+    color: rgb(33, 231, 155);
 }
 
-header {
-     color: rgb(33, 231, 155);
-}
-
-.right {
+.HomePictureRight {
     float: right;
     margin-left: 20px;
     max-width: 300px;
@@ -38,21 +33,18 @@ section {
     max-width: 800px;
 }
 
-a {
+.HomeIGLink {
     color: #1e90ff;
     text-decoration: none;
-}
-
-a {
     text-align: center;
 }
 
-.icon {
+.HomeIGIcon {
     width: 64px;
     height: 64px;
 }
 
-.logo {
+.HomeIGLogo {
     display: flex;
     justify-content: center;
 }
