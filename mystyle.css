@@ -131,9 +131,16 @@ section {
 } 
 
 .quote { 
-    font-style: italic; 
-    color: #dd2323; 
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e67878; 
     margin-top: 20px; 
 } 
+
+.Quote3 { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
 
 /* CSS For Future END*/
