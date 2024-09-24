@@ -125,4 +125,15 @@ section {
     color: #dce4e4;
 }
 
+.goal-list { 
+    margin-top: 15px;
+    padding-left: 20px; 
+} 
+
+.quote { 
+    font-style: italic; 
+    color: #dd2323; 
+    margin-top: 20px; 
+} 
+
 /* CSS For Future END*/
