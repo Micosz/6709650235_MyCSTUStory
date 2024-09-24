@@ -116,6 +116,13 @@ section {
 
 /* CSS For Future */
 
+.FutureVision {
+    padding: 50px;
+    background-color: rgb(53, 49, 49);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    float: left;
+    color: #dce4e4;
+}
 
-    
 /* CSS For Future END*/
