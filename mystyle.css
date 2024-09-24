@@ -1,4 +1,6 @@
-/* CSS For Homepage */
+
+/* CSS For Global */
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -13,8 +15,8 @@ body {
     color: #d6d1d1;
 }
 
-.Header {
-    background: #ac714f;
+header {
+    background: #855940;
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -22,6 +24,34 @@ body {
     position: sticky;
     top: 0px;
 }
+
+.Navigationbar {
+    position: sticky;
+    top: 0px;
+    background-color: #cea05b;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    width: 10%;
+    height: 100vh;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.UnOrderlistbar {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+/* CSS For Global END*/
+
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+/* CSS For Homepage */
 
 .HomePictureRight {
     float: right;
@@ -53,102 +83,31 @@ section {
     justify-content: center;
 }
 
-.Navigationbar {
-    position: sticky;
-    top: 0px;
-    background-color: #cea05b;
-    padding: 15px;
-    text-align: center;
-    float: left;
-    width: 10%;
-    height: 100vh;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.UnOrderlistbar {
-    list-style: none;
-    margin: 0;
-    padding: 20px;
-}
-
-.click-image {
-display: inline-block; 
-}
-
 /* CSS For Homepage END */
-/* CSS For Journal */
 
-.Header {
-    background: #ac714f;
-    color: #fff;
-    padding: 1em 0;
-    text-align: center;
-    color: rgb(33, 231, 155);
-    position: sticky;
-    top: 0px;
-}
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
 
-.Navigationbar {
-    position: sticky;
-    top: 0px;
-    background-color: #cea05b;
-    padding: 15px;
-    text-align: center;
+
+/* CSS For Journey */
+
+.First_Explain {
+    height: 200px;
+    width: 40%;
     float: left;
-    width: 10%;
-    height: 100vh;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    padding: 75px;
+    text-align: center;
 }
+    
+/* CSS For Journey END*/
 
-.UnOrderlistbar {
-    list-style: none;
-    margin: 0;
-    padding: 20px;
-}
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
 
-.click-image {
-    display: inline-block; 
-}
-
-/* CSS For Journal END*/
 /* CSS For Future */
 
-.Header {
-    background: #ac714f;
-    color: #fff;
-    padding: 1em 0;
-    text-align: center;
-    color: rgb(33, 231, 155);
-    position: sticky;
-    top: 0px;
-}
 
-.Navigationbar {
-    position: sticky;
-    top: 0px;
-    background-color: #cea05b;
-    padding: 15px;
-    text-align: center;
-    float: left;
-    width: 10%;
-    height: 100vh;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.UnOrderlistbar {
-    list-style: none;
-    margin: 0;
-    padding: 20px;
-}
-
-.click-image {
-    display: inline-block; 
-}
     
 /* CSS For Future END*/
