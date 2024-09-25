@@ -4,7 +4,7 @@ Welcome to **My CSTU Story**! This project is build for everyone who want to see
 
 ## Table of Contents
 
-- [Homepage](#Homepage)
-- [MyJournal](#My Journal)
-- [MyFuture](#My Future)
+- [Homepage]
+- [MyJournal]
+- [MyFuture]
 
