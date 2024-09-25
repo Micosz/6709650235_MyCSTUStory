@@ -121,8 +121,8 @@ section {
     background-color: rgb(53, 49, 49);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    float: left;
     color: #dce4e4;
+    width: 50%;
 }
 
 .goal-list { 
@@ -142,5 +142,7 @@ section {
     margin-left: auto; 
     margin-right: auto; 
 }
+
+
 
 /* CSS For Future END*/
